@@ -1,5 +1,5 @@
 # Walmart_Sales_Prediction_And_Analysis
-#Designed and implemented a machine learning model to predict Walmart sales, leveraging data analysis to enhance inventory management and business strategy.<br>
+<b>#Designed and implemented a machine learning model to predict Walmart sales, leveraging data analysis to enhance inventory management and business strategy.<br><b>
 • Technologies Used: Python, SQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebooks.<br>
 
 Store - the store number<br>
