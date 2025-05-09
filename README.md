@@ -12,8 +12,9 @@ CPI – Prevailing consumer price index<br>
 Unemployment - Prevailing unemployment rate<br>
 IsHoliday: Is particular day has Holiday.<br>
 
-#Acknowledgements The dataset is taken from Kaggle.<br>
+<b>#Acknowledgements:</b>The dataset is taken from Kaggle.<br>
 
-#Objective: Understand the Dataset & cleanup (if required).<br>
+<b>#Objective: </b><br>
+Understand the Dataset & cleanup (if required).<br>
 Build Regression models to predict the sales w.r.t a single & multiple feature.<br>
 Also evaluate the models & compare their respective scores like R2, RMSE, etc.
