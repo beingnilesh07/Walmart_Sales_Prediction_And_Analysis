@@ -2,15 +2,41 @@
 <b>#Designed and implemented a machine learning model to predict Walmart sales, leveraging data analysis to enhance inventory management and business strategy.<br></b>
 • Technologies Used: Python, SQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebooks.<br>
 
-Store - the store number<br>
-Date - the week of sales<br>
-Weekly_Sales - sales for the given store<br>
-Holiday_Flag - whether the week is a special holiday week 1 – Holiday week 0 – Non-holiday week<br>
-Temperature - Temperature on the day of sale<br>
-Fuel_Price - Cost of fuel in the region<br>
-CPI – Prevailing consumer price index<br>
-Unemployment - Prevailing unemployment rate<br>
-IsHoliday: Is particular day has Holiday.<br>
+- **train.csv** - CSV Data file containing following attributes
+	- Store
+	- Dept
+	- Date
+	- Weekly_Sales
+	- IsHoliday
+
+115064 Data rows
+ - **stores.csv** - CSV Data File containing following attributes 
+	 - Store
+	 - Type
+	 - Size
+	 
+45 Data rows
+ - **features.csv** - CSV Data file containing following attributes
+	- Store
+	- Date
+	- Temperature
+	- Fuel_Price
+	- MarkDown1
+	- MarkDown2
+	- MarkDown3
+	- MarkDown4
+	- MarkDown5
+	- CPI
+	- Unemployment
+	- IsHoliday
+	- 8190 Data rows
+
+
+## Machine Learning Models
+- Linear Regression Model
+- Random Forest Regression Model
+- K Neighbors Regression Model
+- XGBoost Regression Model
 
 <b>#Acknowledgements:</b>The dataset is taken from Kaggle.<br>
 
