@@ -1,46 +1,90 @@
-# Walmart_Sales_Prediction_And_Analysis
-<b>#Designed and implemented a machine learning model to predict Walmart sales, leveraging data analysis to enhance inventory management and business strategy.<br></b>
-• Technologies Used: Python, SQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebooks.<br>
+# 🛒 Walmart Sales Forecast & Analysis
 
-- **train.csv** - CSV Data file containing following attributes
-	- Store
-	- Dept
-	- Date
-	- Weekly_Sales
-	- IsHoliday
+<b>Designed and implemented a machine learning pipeline to forecast Walmart sales, leveraging advanced data analysis to optimize inventory management and strengthen business strategy.</b>  
 
-115064 Data rows
- - **stores.csv** - CSV Data File containing following attributes 
-	 - Store
-	 - Type
-	 - Size
-	 
-45 Data rows
- - **features.csv** - CSV Data file containing following attributes
-	- Store
-	- Date
-	- Temperature
-	- Fuel_Price
-	- MarkDown1
-	- MarkDown2
-	- MarkDown3
-	- MarkDown4
-	- MarkDown5
-	- CPI
-	- Unemployment
-	- IsHoliday
-	- 8190 Data rows
+---
 
+## ⚙️ Technologies Used
+- Python  
+- SQL  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebooks  
 
-## Machine Learning Models
-- Linear Regression Model
-- Random Forest Regression Model
-- K Neighbors Regression Model
-- XGBoost Regression Model
+---
 
-<b>#Acknowledgements:</b>The dataset is taken from Kaggle.<br>
+## 📂 Dataset Information
+The dataset is sourced from **Kaggle** and consists of three CSV files:
 
-<b>#Objective: </b><br>
-Understand the Dataset & cleanup (if required).<br>
-Build Regression models to predict the sales w.r.t a single & multiple feature.<br>
-Also evaluate the models & compare their respective scores like R2, RMSE, etc.
+- **train.csv** – 115,064 rows  
+  - Attributes: `Store`, `Dept`, `Date`, `Weekly_Sales`, `IsHoliday`  
+
+- **stores.csv** – 45 rows  
+  - Attributes: `Store`, `Type`, `Size`  
+
+- **features.csv** – 8,190 rows  
+  - Attributes: `Store`, `Date`, `Temperature`, `Fuel_Price`, `MarkDown1–5`, `CPI`, `Unemployment`, `IsHoliday`  
+
+---
+
+## 🎯 Objective
+- Understand and clean the dataset (handling missing values, feature engineering).  
+- Build regression models to predict **weekly sales** using single and multiple features.  
+- Evaluate and compare models using metrics such as **R²**, **RMSE**, and **MAE**.  
+- Provide insights for **business strategy and inventory management**.  
+
+---
+
+## 🧠 Machine Learning Models Implemented
+- **Linear Regression** – baseline model for trend analysis.  
+- **Random Forest Regression** – ensemble learning for robust predictions.  
+- **K Neighbors Regression** – instance-based learning for local patterns.  
+- **XGBoost Regression** – gradient boosting for high-performance forecasting.  
+
+---
+
+## 🔄 Workflow
+1. **Data Preprocessing**
+   - Handle missing values  
+   - Feature engineering (holiday flag, markdown features, lag variables)  
+   - Encoding categorical variables  
+   - Train-test split  
+
+2. **Exploratory Data Analysis (EDA)**
+   - Sales distribution across stores and departments  
+   - Impact of holidays and markdowns on sales  
+   - Correlation analysis of features  
+
+3. **Model Training & Evaluation**
+   - Train multiple regression models  
+   - Evaluate using R², RMSE, MAE  
+   - Compare performance across models  
+
+4. **Visualization**
+   - Sales trends over time  
+   - Feature importance plots  
+   - Residual analysis  
+
+---
+
+## 📊 Evaluation Metrics
+- **R² (Coefficient of Determination)** – measures goodness of fit  
+- **RMSE (Root Mean Squared Error)** – penalizes large errors
+- **MSE (Mean Squarred Erro)** - average of squared prediction errors.
+- **MAE (Mean Absolute Error)** – average magnitude of errors  
+
+---
+
+## 🚀 Results & Insights
+- Random Forest and XGBoost models outperform Linear Regression and KNN.  
+- Holiday periods and markdowns significantly influence weekly sales.  
+- Store size and type are strong predictors of sales volume.  
+
+---
+
+## 🤝 Acknowledgements
+The dataset is taken from **Kaggle Walmart Sales Forecasting Challenge**.  
+
+---
+
