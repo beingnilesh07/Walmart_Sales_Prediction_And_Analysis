@@ -1,6 +1,6 @@
-# 🛒 Walmart Sales Forecast & Analysis
+# 🛒 Walmart Sales Predict & Analysis
 
-<b>Designed and implemented a machine learning pipeline to forecast Walmart sales, leveraging advanced data analysis to optimize inventory management and strengthen business strategy.</b>  
+<b>Designed and implemented a machine learning pipeline to predict Walmart sales, leveraging advanced data analysis to optimize inventory management and strengthen business strategy.</b>  
 
 ---
 
