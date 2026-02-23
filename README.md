@@ -3,6 +3,8 @@
 <b>Designed and implemented a machine learning pipeline to predict Walmart sales, leveraging advanced data analysis to optimize inventory management and strengthen business strategy.</b>  
 
 ---
+## 🎯 Business Objectives
+The main objective of this project is to predict weekly store sales by analyzing how different factors influence sales performance. This includes studying the impact of calendar-related factors such as weeks, months, and holidays, as well as space-based factors like store and department characteristics. Special emphasis is placed on understanding how the presence of holidays within a week affects sales volume, helping identify patterns that drive higher store revenue and improve data-driven decision-making.
 
 ## ⚙️ Technologies Used
 - Python  
